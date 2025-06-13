@@ -1,3 +1,4 @@
 # Ignorar entorno virtual de Python
 rag2_venv/
 .env
+__pycache__/
