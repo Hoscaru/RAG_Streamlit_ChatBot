@@ -5,7 +5,7 @@ import tempfile
 
 UPLOAD_DIR = "./uploaded_pdfs"
 
-def save_uploaded_files(files:;ost[UploadFile]) -> list[str]:
+def save_uploaded_files(files:list[UploadFile]) -> list[str]:
     """
     Save uploaded PDF files to a temporary directory and return their paths.
     
