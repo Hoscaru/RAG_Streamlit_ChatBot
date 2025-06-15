@@ -40,7 +40,7 @@ async def upload_pdfs(files:List[UploadFile]=File(...)):
 
 
 @app.post("/ask/")
-async def ask_quyestion(question:str=Form(...)):
+async def ask_question(question:str=Form(...)):
     try:
         logger.info(f"user query:{question}")
         from langchain_chroma import Chroma
