@@ -2,3 +2,5 @@
 rag2_venv/
 .env
 __pycache__/
+chroma_store/
+uploaded_pdfs/
